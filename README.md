@@ -24,3 +24,9 @@ To train the images I choose a pre trained model. That has prove that produce hi
 <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/ResNet.png" width="450" height="250" style=centerme>
 </p>
 
+### Choosing technologies
+
+To develop this challenge by using python3, **Keras** for the front end of the Deep learning and **tensorflow** for the backed end. 
+
+
+### Applying image augmentation 
