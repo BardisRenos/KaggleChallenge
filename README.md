@@ -18,4 +18,9 @@ This block shows how should the images be processed. Each image is in **.TIFF** 
 
 ### Choosing Deep Learing Model
 
-To train the images I choose a pre trained model. That has prove that produce high percentage of accuracy. Therefore ResNet50 is that I choose. 
+To train the images I choose a pre trained model. That has prove that produce high percentage of accuracy. Therefore ResNet50 is that I choose. It has already trained weights for a different challenge. However, the tranfer learning has proved to produced higher accuracy comparing with a model that is trained from scratch.   
+
+<p align="center"> 
+<img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/ResNet.png" width="450" height="250" style=centerme>
+</p>
+
