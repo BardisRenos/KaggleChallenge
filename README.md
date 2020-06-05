@@ -8,7 +8,7 @@ This repo demonstrates a Kaggle challenge ragarding cancer prostate [link](https
 The data set is constructed through 10.616 images which each image corrensponds to a single patient. The images are in .TIFF format, which contains three different images with different sizes into one image file. Each image belongs to ISUP grade. That grade demonstrates the cancer grade. 
 
 <p align="center"> 
-<img src="https://github.com/BardisRenos/Kaggle_Challenge/blob/master/img.JPG.jpg" width="450" height="250" style=centerme>
+<img src="https://github.com/BardisRenos/Kaggle_Challenge/blob/master/img.JPG" width="450" height="250" style=centerme>
 </p>
 
 ### Data process 
@@ -37,5 +37,5 @@ To develop this challenge by using **Python3** as programing language, **Keras**
 
 ### Applying image augmentation 
 
-
+<img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/imageAug.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/imageAug.png" width="250"/>
 
