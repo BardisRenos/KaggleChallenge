@@ -39,3 +39,4 @@ To develop this challenge by using **Python3** as programing language, **Keras**
 
 <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/imageAug.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/imageAug.png" width="250"/>
 
+### 
