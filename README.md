@@ -37,6 +37,15 @@ To develop this challenge by using **Python3** as programing language, **Keras**
 
 ### Applying image augmentation 
 
+Image data augmentation is a technique that can be used to artificially expand the size of a training dataset by creating modified versions of images in the dataset.
+Training deep learning neural network models on more data can result in more skillful models, and the augmentation techniques can create variations of the images that can improve the ability of the fit models to generalize what they have learned to new images.
+The Keras deep learning neural network library provides the capability to fit models using image data augmentation via the ImageDataGenerator class.
+
 <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/imageAug.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/imageAug.png" width="250"/>
 
-### 
+### BatchNormalization layer
+
+Batch normalization is one of the reasons why deep learning has made such outstanding progress in recent years. 
+Batch normalization enables the use of higher learning rates, greatly accelerating the learning process.
+It also enabled the training of deep neural networks with sigmoid activations that were previously deemed too difficult to train due to the vanishing gradient problem. Based on its success, other normalization methods such as layer normalization and weight normalization have appeared and are also finding use within the field.
+
