@@ -74,7 +74,7 @@ def create_images():
             # Reads each image the list of categories
             image = cv2.imread(train_images + img_name.split('_')[0] + '\\' + img_name)
             # Checks if the image is greater than 256 by 256 pixels
-            if 256 < image.shape[0] and 256 < image.shape[1]:
+            if IMG_SIZE < image.shape[0] and IMG_SIZE < image.shape[1]:
                 random_train_image.append(img_name)
         # After passing the condition of the dimension. The code chooses random 2000 images from the same category
         random_files = np.random.choice(random_train_image, 2000, replace=False)
@@ -203,7 +203,7 @@ def DNN_Model():
 
     # We add one single layer for the classification part. We can add as much as we want.
     x = Dense(512, activation='relu')(x)  # dense layer 1
-    x = Dropout(0.15)(x)
+    x = Dropout(0.25)(x)
 
     # Add to the model the number of classes that we need to classify
     output = Dense(y.shape[1], activation='softmax')(x)
@@ -232,9 +232,6 @@ def DNN_Model():
         validation_data=(X_test, y_test),
         validation_steps=batch_size)
 
-    # Final evaluation of the model
-    scores = model.evaluate(X_test, y_test)
-    print("Accuracy: %.2f%%" % (scores[1] * 100))
 
 
 if __name__ == '__main__':
