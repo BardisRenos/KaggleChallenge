@@ -5,7 +5,7 @@ This repo demonstrates a Kaggle challenge ragarding cancer prostate [link](https
 
 ### Data set
 
-The data set is constructed through 10.616 images which each image corrensponds to a single patient. The images are in .TIFF format, which contains three different images with different sizes into one image file. Each image belongs to ISUP grade. That grade demonstrates the cancer grade. 
+The data set is constructed through 10.616 images which each image corrensponds to a single patient. The images are in **.TIFF** format. Each image belongs to ISUP grade. That grade demonstrates the cancer grade. 
 
 <p align="center"> 
 <img src="https://github.com/BardisRenos/Kaggle_Challenge/blob/master/img.JPG" width="450" height="250" style=centerme>
@@ -17,7 +17,11 @@ This block shows how should the images be processed. Each image is in **.TIFF** 
 
 ### Choosing Deep Learing Model
 
-To train the images I choose a pre trained model. That has prove that produce high percentage of accuracy. Therefore ResNet50 is that I choose. It has already trained weights for a different challenge. However, the tranfer learning has proved to produced higher accuracy comparing with a model that is trained from scratch.
+To train the dataset of images I choose a pre trained model. That has prove that produce high percentage of accuracy. Therefore **ResNet50** is that I choose. It has already trained weights for a different challenge. However, the tranfer learning has proved to produced higher accuracy comparing to a model that is trained from scratch. 
+
+### Description
+
+ResNet-50 is a convolutional neural network that is 50 layers deep. You can load a pretrained version of the network trained on more than a million images from the ImageNet database. The pretrained network can classify images into 1000 object categories, such as keyboard, mouse, pencil, and many animals. As a result, the network has learned rich feature representations for a wide range of images. The network has an image input size of 224-by-224. 
 
 <p align="center"> 
 <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/ResNet.png" width="450" height="250" style=centerme>
@@ -25,7 +29,7 @@ To train the images I choose a pre trained model. That has prove that produce hi
 
 
 ### Applying M.I.L
-In our case the model that we have applied, is a Multiple Instance Learning convolutional neural network. 
+In our case the model that we have applied, is a Multiple Instance Learning convolutional neural network. That means each patient's image is divided into small pieces (tiles). By doing that the model is feeded with more images by each category. As can been shown below. Each patient's image is devided into smaller pieces in order to feed the Neural Network with different side of the same category.
 
 <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/0a6c5a120961974a7dae8cf11245ff73_Image122.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/0a6c5a120961974a7dae8cf11245ff73_Image23.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/0a6c5a120961974a7dae8cf11245ff73_Image98.jpg" height="250"/>
 
