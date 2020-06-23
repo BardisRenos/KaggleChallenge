@@ -53,3 +53,9 @@ Batch normalization is one of the reasons why deep learning has made such outsta
 Batch normalization enables the use of higher learning rates, greatly accelerating the learning process.
 It also enabled the training of deep neural networks with sigmoid activations that were previously deemed too difficult to train due to the vanishing gradient problem. Based on its success, other normalization methods such as layer normalization and weight normalization have appeared and are also finding use within the field.
 
+
+### Changing to the pre trained model
+
+From the file pre trained model I applied some smalles changes in order to fit my data set into thise deep learning model. Also, increase the mainten high 
+
+
