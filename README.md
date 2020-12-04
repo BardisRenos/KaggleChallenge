@@ -55,7 +55,7 @@ It also enabled the training of deep neural networks with sigmoid activations th
 
 ### Changing to the pre trained model attributes
 
-In order to train our dataset and achieve high accuracy score, this approach uses the **ResNet50** deep learning model. In the code I change the input shape of the model and also the number of the output classes. That way the model is adapted into our data set shape.
+In order to train our dataset and achieve high accuracy score, this approach uses the **ResNet50** deep learning model. In the code I change the input shape of the model and also the number of the output classes. That way the model is adapted into our data set shape. Also the model has one layer of the dense full connected layer of 512 neuros with reLu activation function. 
 
 
 
