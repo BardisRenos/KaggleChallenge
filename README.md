@@ -29,7 +29,7 @@ ResNet-50 is a convolutional neural network that is 50 layers deep. You can load
 
 
 ### Applying M.I.L
-In our case the model that we have applied, is a Multiple Instance Learning convolutional neural network. That means each patient's image is divided into small pieces (tiles). By doing that the model is feeded with more images by each category. As can been shown below. Each patient's image is devided into smaller pieces in order to feed the Neural Network with different side of the same category.
+In our case the model that we have applied, is a **Multiple Instance Learning** Convolutional Neural Network. That means each patient's image is divided into small pieces (tiles). By doing that the model is feeded with more images by each category. As can been shown below. Each patient's image is devided into smaller pieces in order to feed the Neural Network with different sides of the same category tissue .
 
 <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/0a6c5a120961974a7dae8cf11245ff73_Image122.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/0a6c5a120961974a7dae8cf11245ff73_Image23.jpg" width="250"/> <img src= "https://github.com/BardisRenos/Kaggle_Challenge/blob/master/0a6c5a120961974a7dae8cf11245ff73_Image98.jpg" height="250"/>
 
@@ -55,6 +55,8 @@ It also enabled the training of deep neural networks with sigmoid activations th
 
 ### Changing to the pre trained model attributes
 
-In order to train our dataset and achieve high accuracy score, this approach uses **ResNet50**. In the code I change the input shape of the model and the number of the output classes. 
+In order to train our dataset and achieve high accuracy score, this approach uses the **ResNet50** deep learning model. In the code I change the input shape of the model and also the number of the output classes. That way the model is adapted into our data set shape.
+
+
 
 
