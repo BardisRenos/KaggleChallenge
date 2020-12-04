@@ -38,7 +38,6 @@ In our case the model that we have applied, is a Multiple Instance Learning conv
 
 To develop this challenge by using **Python3** as programing language, **Keras** for the front end and **Tensorflow** for the backed end of the Deep Learning model. 
 
-
 ### Applying image augmentation 
 
 Image data augmentation is a technique that can be used to artificially expand the size of a training dataset by creating modified versions of images in the dataset.
@@ -54,8 +53,8 @@ Batch normalization enables the use of higher learning rates, greatly accelerati
 It also enabled the training of deep neural networks with sigmoid activations that were previously deemed too difficult to train due to the vanishing gradient problem. Based on its success, other normalization methods such as layer normalization and weight normalization have appeared and are also finding use within the field.
 
 
-### Changing to the pre trained model
+### Changing to the pre trained model attributes
 
-From the file pre trained model I applied some smalles changes in order to fit my data set into thise deep learning model. Also, increase the mainten high 
+In order to train our dataset and achieve high accuracy score, this approach uses **ResNet50**. In the code I change the input shape of the model and the number of the output classes. 
 
 
